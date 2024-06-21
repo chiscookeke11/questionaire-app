@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #e8e8e8;
+}
+.nav{
+	width: 100%;
+}
+nav{
+	padding: 10px 50px;
+	background: dodgerblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.5rem;
+	box-shadow: 0 0 20px darkgray;
+}
+.round{
+	font-size: 20px;
+}
+.logo img{
+	width: 60px;
+	margin: 0px 20px;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+ul li{
+	list-style: none;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	padding-top: 80px;
+}
+.search-bar{
+	min-height: 50px;
+	width: 50%;
+	max-width: 800px;
+	padding: 0 0;
+	position: relative;
+	background: #fff;
+	border-radius: 22px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	padding: 0 1% 0 1%;
+	left: 20px;
+	font-size: 1.5rem;
+	color: #707070;
+	align-items: center;
+	display: flex;
+}
+.search-bar input{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	outline: none;
+	font-size: 1.2rem;
+	font-weight: 400;
+	padding-right: 0;
+	padding-left: 0;
+	border: none;
+	padding-right: 60px;
+	background-color: transparent;
+}
+.search-bar img{
+	width: 30px;
+	margin-left: 95%;
+	cursor: pointer;	
+	z-index: 9999;
+}
+.questions-slip{
+	padding: 10px 10px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 65%;
+	gap: 30px;
+}
+.question-card{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	flex-direction: column;
+	background-color: #fff;
+	align-items: center;
+	border-radius: 8px;
+	width: 100%;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 5);
+	min-height: 300px;
+}
+#nothing-alert{
+	display: none;
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+}
+.question-card h1{
+	text-align: center;
+	margin: 20px 20px;
+	font-size: 30px;
+	color: #000;
+}
+ol{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+li{
+	background: #fff;
+	padding: 5px 15px;
+	border-radius: 15px;
+	border: 0.2px solid dodgerblue;
+	margin: 0 10px;
+	font-size: 1.2rem;
+	color: dodgerblue;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.num{
+	text-align: center;
+	margin: 30px 20px;
+	font-size: 30px;
+	color: #000;
+	display: flex;
+	justify-content: center;
+}
+.num h2{
+	border-radius: 50%;
+	padding: 10px 25px;
+	border:2px solid silver;
+}
+#nothing-alert .num h2{
+	border: none;
+}
+.questions-slip .rules h2{
+	border: none;
+}
+ .rule ul{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.rule ul li{
+	border: none;
+	box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

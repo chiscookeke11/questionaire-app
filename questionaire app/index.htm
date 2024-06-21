@@ -1,0 +1,2814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFCS Quiz - Round 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <nav>
+            <div class="logo"><img src="logo 3.jpg" alt=""> NFCS Quiz</div>
+            <ul>
+                <li><i>Living the Faith</i></li>
+            </ul>
+            
+        </nav>
+    </div>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Input Question number " id="search-input" required><img src="md-search.svg" alt="" autocomplete="off">
+        </div>
+        <div class="questions-slip">
+
+            <div class="question-card rule">
+                <div class="num rules">
+                    <h2>Rules of the Game</h2>
+                </div>
+                <ul>
+                    <li>Once the answers has been said no corrections</li>
+                    <li>Call out the option not the word</li>
+                    <li>There are four rounds in the competition, each round a contestant will be eliminated</li>
+                    <li>Once a question has been picked, it can't be picked </li>
+                </ul>
+            </div>
+
+            <div id="nothing-alert" style="display: none;">
+                <div class="num">
+                    <h2>Nothing found</h2>
+                </div>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>1</h2>
+                </div>
+                <h1> Who was the first man created by God?</h1>
+                <ol type="a">
+                    <li>Adam
+                    <li>Abraham</li>
+                    <li>Moses</li>
+                    <li>Noah</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>2</h2>
+                </div>
+                <h1>Which book tells the story of the Israelites' escape from slavery in Egypt?  </h1>
+                <ol type="a">
+                    <li>Genesis</li>
+                    <li>exodus</li>
+                    <li>leviticus</li>
+                    <li>numbers</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>3</h2>
+                </div>
+                <h1>Who was the mother of Jesus Christ?</h1>
+                <ol type="a">
+                    <li>Mary magdalene</li>
+                    <li>elizabeth</li>
+                    <li>ruth</li>
+                    <li>mary</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>4</h2>
+                </div>
+                <h1>Which apostle betrayed Jesus Christ before his crucifixion</h1>
+                <ol type="a">
+                    <li>peter</li>
+                    <li>john</li>
+                    <li>judas iscariot</li>
+                    <li>james</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>5</h2>
+                </div>
+                <h1>Which of the following is NOT one of the Ten Commandments?</h1>
+                <ol type="a">
+                    <li>You shall not steal</li>
+                    <li>You shall not convert your neighbor's wife</li>
+                    <li>Honor your father and your mother</li>
+                    <li>You shall not drink alcohol</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>6</h2>
+                </div>
+                <h1> Who is considered the first pope of the Christian Church?</h1>
+                <ol type="a">
+                    <li>saint paul</li>
+                    <li>saint peter</li>
+                    <li>saint john</li>
+                    <li>saint james</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>7</h2>
+                </div>
+                <h1>Which of the following is NOT a Gospel?</h1>
+                <ol type="a">
+                    <li>Matthew</li>
+                    <li>luke</li>
+                    <li>acts</li>
+                    <li>john</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>8</h2>
+                </div>
+                <h1>Who was thrown into the lion's den but survived because of his faith in God?</h1>
+                <ol type="a">
+                    <li>daniel</li>
+                    <li>jonah</li>
+                    <li>moses</li>
+                    <li>david</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>9</h2>
+                </div>
+                <h1> Which of Jesus' apostles famously doubted his resurrection until he saw Jesus with his own eyes?</h1>
+                <ol type="a">
+                    <li>Thomas</li>
+                    <li>Peter</li>
+                    <li>Andrew</li>
+                    <li>James</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>10</h2>
+                </div>
+                <h1> What was the name of the man who carried the cross for Jesus on the way to his crucifixion?</h1>
+                <ol type="a">
+                    <li>Simon of Cyrene</li>
+                    <li>Nicodemus</li>
+                    <li>Joseph of Arimathea</li>
+                    <li>Pontius Pilate</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>11</h2>
+                </div>
+                <h1>Who was the father of Isaac in the Old Testament?</h1>
+                <ol type="a">
+                    <li>Abraham</li>
+                    <li>Jacob</li>
+                    <li>Noah</li>
+                    <li>David</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>12</h2>
+                </div>
+                <h1>Which prophet is known for his encounter with a burning bush and leading the Israelites out of Egypt?</h1>
+                <ol type="a">
+                    <li> Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Ezekiel</li>
+                    <li>Moses</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>13</h2>
+                </div>
+                <h1>In the New Testament, who baptized Jesus in the Jordan River?</h1>
+                <ol type="a">
+                    <li>John the Baptist</li>
+                    <li>Peter</li>
+                    <li>James</li>
+                    <li>Paul</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>14</h2>
+                </div>
+                <h1>Which city served as the capital of Israel during the reign of King David?</h1>
+                <ol type="a">
+                    <li>Bethlehem</li>
+                    <li>Jerusalem</li>
+                    <li>Jericho</li>
+                    <li>Nazareth</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>15</h2>
+                </div>
+                <h1>Who was the first king of Israel?</h1>
+                <ol type="a">
+                    <li>Saul</li>
+                    <li>David</li>
+                    <li>Solomon</li>
+                    <li>Samuel</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>16</h2>
+                </div>
+                <h1>Which apostle is known as the "beloved disciple" in the New Testament?</h1>
+                <ol type="a">
+                    <li>Peter</li>
+                    <li>John</li>
+                    <li>James</li>
+                    <li> Andrew</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>17</h2>
+                </div>
+                <h1>Which event is celebrated by Christians as the birth of Jesus Christ? </h1>
+                <ol type="a">
+                    <li>Easter</li>
+                    <li>Christmas</li>
+                    <li>Pentecost</li>
+                    <li>Epiphany</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>18</h2>
+                </div>
+                <h1>What is the last book of the New Testament?</h1>
+                <ol type="a">
+                    <li>Acts</li>
+                    <li>Revelation</li>
+                    <li>Jude</li>
+                    <li>James</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>19</h2>
+                </div>
+                <h1>Who wrote most of the letters (epistles) in the New Testament?</h1>
+                <ol type="a">
+                    <li>Paul</li>
+                    <li>Peter</li>
+                    <li>John</li>
+                    <li>James</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>20</h2>
+                </div>
+                <h1>Which biblical figure is known for building an ark to survive the Great Flood?</h1>
+                <ol type="a">
+                    <li>Noah</li>
+                    <li>Moses</li>
+                    <li>Abraham</li>
+                    <li>Joshua</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>21</h2>
+                </div>
+                <h1>In the Book of Genesis, who was the wife of Isaac and the mother of Jacob and Esau</h1>
+                <ol type="a">
+                    <li>Rachel</li>
+                    <li>Leah</li>
+                    <li>Sarah</li>
+                    <li>Rebekah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>22</h2>
+                </div>
+                <h1>Which prophet is known for his visions of a valley of dry bones coming to life?</h1>
+                <ol type="a">
+                    <li>Ezekiel</li>
+                    <li> Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>23</h2>
+                </div>
+                <h1>Which apostle is known for his denial of Jesus three times before the crucifixion?</h1>
+                <ol type="a">
+                    <li>Peter</li>
+                    <li>John</li>
+                    <li>Andrew</li>
+                    <li>James</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>24</h2>
+                </div>
+                <h1>What is the longest book in the New Testament?</h1>
+                <ol type="a">
+                    <li> Romans</li>
+                    <li>Acts</li>
+                    <li>Hebrews</li>
+                    <li>Revelation</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>25</h2>
+                </div>
+                <h1>Which biblical figure is known for his wisdom and for building the Temple in Jerusalem</h1>
+                <ol type="a">
+                    <li>Solomon</li>
+                    <li>David</li>
+                    <li>Saul</li>
+                    <li>Joshua</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>26</h2>
+                </div>
+                <h1>What is the first book of the New Testament</h1>
+                <ol type="a">
+                    <li>Matthew</li>
+                    <li>Mark</li>
+                    <li>Luke</li>
+                    <li>John</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>27</h2>
+                </div>
+                <h1>Which Old Testament figure was swallowed by a great fish and remained in its belly for three days and nights?                                                                                                                                           </h1>
+                <ol type="a">
+                    <li>Jonah</li>
+                    <li>Daniel</li>
+                    <li>Job</li>
+                    <li>Elijah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>28</h2>
+                </div>
+                <h1>Who was the brother of Moses and the spokesperson for the Israelites before Pharaoh?</h1>
+                <ol type="a">
+                    <li>Aaron</li>
+                    <li>Miriam</li>
+                    <li>Joshua</li>
+                    <li>Caleb</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>29</h2>
+                </div>
+                <h1>Which king of Israel was known for his wisdom and for judging the famous case of two women claiming to be the mother of the same child?</h1>
+                <ol type="a">
+                    <li>Solomon</li>
+                    <li>David</li>
+                    <li>Saul</li>
+                    <li>Josiah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>30</h2>
+                </div>
+                <h1>What was the name of the angel who visited Mary to announce that she would give birth to Jesus?</h1>
+                <ol type="a">
+                    <li>Gabriel</li>
+                    <li>Michael</li>
+                    <li>Raphael</li>
+                    <li>Uriel</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>31</h2>
+                </div>
+                <h1>Who led the Israelites into the Promised Land after the death of Moses?<h1>
+                <ol type="a">
+                    <li>Joshua</li>
+                    <li>Caleb</li>
+                    <li>Aaron</li>
+                    <li>Gideon</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>32</h2>
+                </div>
+                <h1>What is the shortest book in the New Testament</h1>
+                <ol type="a">
+                    <li>Philemon</li>
+                    <li>Jude</li>
+                    <li>2 John</li>
+                    <li>3 John</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>33</h2>
+                </div>
+                <h1>Who was the father of John the Baptist?</h1>
+                <ol type="a">
+                    <li>Zechariah</li>
+                    <li> Joseph</li>
+                    <li>Simeon</li>
+                    <li>Zacharias</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>34</h2>
+                </div>
+                <h1>What was the occupation of the apostle Matthew before he became a disciple of Jesus?</h1>
+                <ol type="a">
+                    <li>Tax collector</li>
+                    <li>Fisherman</li>
+                    <li>Carpenter</li>
+                    <li>Physician</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>36</h2>
+                </div>
+                <h1>Who was the youngest son of Jacob and the one favored by his father, known for his coat of many colors?</h1>
+                <ol type="a">
+                    <li>Joseph</li>
+                    <li>Benjamin</li>
+                    <li>Reuben</li>
+                    <li>Judah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>37</h2>
+                </div>
+                <h1>What is the name of the mountain where Moses received the Ten Commandments from God?</h1>
+                <ol type="a">
+                    <li>Mount Sinai</li>
+                    <li>Mount Moriah</li>
+                    <li>Mount Carmel</li>
+                    <li>Mount Zion</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>38</h2>
+                </div>
+                <h1>Which apostle is known for his dramatic conversion on the road to Damascus?</h1>
+                <ol type="a">
+                    <li>Paul</li>
+                    <li>Peter</li>
+                    <li>John</li>
+                    <li>James</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>39</h2>
+                </div>
+                <h1>Who was the king of Israel who famously defeated the giant Goliath with a sling and a stone?</h1>
+                <ol type="a">
+                    <li>David</li>
+                    <li>Solomon</li>
+                    <li>Saul</li>
+                    <li>Jonathan</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>40</h2>
+                </div>
+                <h1>Which prophet is known for his struggle with a giant fish and his preaching to the city of Nineveh?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Ezekiel</li>
+                    <li>Jonah</li>
+                    <li>Amos</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>41</h2>
+                </div>
+                <h1>In the Old Testament, who was the mother of Samuel, the prophet and judge?</h1>
+                <ol type="a">
+                    <li>Hannah</li>
+                    <li>Deborah</li>
+                    <li>Jonah</li>
+                    <li>Amos</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>42</h2>
+                </div>
+                <h1>Which king of Israel was known for his wisdom in judging disputes, such as the famous story of two women claiming the same child?</h1>
+                <ol type="a">
+                    <li>Solomon</li>
+                    <li>david</li>
+                    <li>saul</li>
+                    <li>josiah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>43</h2>
+                </div>
+                <h1>What is the last book of the Old Testament?</h1>
+                <ol type="a">
+                    <li>Malachi</li>
+                    <li>Zechariah</li>
+                    <li>Haggai</li>
+                    <li>Nehemiah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>44</h2>
+                </div>
+                <h1>Who was the mother of John the Baptist?</h1>
+                <ol type="a">
+                    <li>Elizabeth</li>
+                    <li>Mary</li>
+                    <li>sarah</li>
+                    <li>rebecca</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>45</h2>
+                </div>
+                <h1>Which disciple of Jesus is known for his fiery temperament and was one of the first to recognize Jesus as the Messiah?</h1>
+                <ol type="a">
+                    <li>Peter</li>
+                    <li>john</li>
+                    <li>james</li>
+                    <li>andrew</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>46</h2>
+                </div>
+                <h1>What is the term for the belief in the resurrection of the body and the reunion of body and soul in heaven? </h1>
+                <ol type="a">
+                    <li>Resurrection</li>
+                    <li>ascension</li>
+                    <li>transfiguration</li>
+                    <li>last judgement</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>47</h2>
+                </div>
+                <h1>Who was the Pope known for his role in the First Vatican Council and the proclamation of the doctrine of papal infallibility? </h1>
+                <ol type="a">
+                    <li>pope pius IX</li>
+                    <li>Pope Leo XIII </li>
+                    <li>Pope Gregory I </li>
+                    <li>Pope Paul VI</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>48</h2>
+                </div>
+                <h1>What is the term for the sacred meal that commemorates the Last Supper of Jesus with his disciples? </h1>
+                <ol type="a">
+                    <li>eucharist</li>
+                    <li>mass</li>
+                    <li>liturgy</li>
+                    <li>communion</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>49</h2>
+                </div>
+                <h1>Who was the founder of the Dominican Order, known for his work in preaching and theological scholarship? </h1>
+                <ol type="a">
+                    <li>Saint Francis of Assisi </li>
+                    <li>Saint Dominic</li>
+                    <li>Saint Ignatius Loyola </li>
+                    <li>Saint Benedict of Nursia</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>50</h2>
+                </div>
+                <h1>What is the term for the act of acknowledging and expressing sorrow for one's sins? </h1>
+                <ol type="a">
+                    <li>contrition</li>
+                    <li>absolution</li>
+                    <li>repentance</li>
+                    <li>confession</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>51</h2>
+                </div>
+                <h1>51. Who was the founder of the Jesuit order, also known as the Society of Jesus? </h1>
+                <ol type="a">
+                    <li>Saint Ignatius of Loyola </li>
+                    <li>Saint Francis Xavier </li>
+                    <li>Saint Peter Claver </li>
+                    <li>saint francis of assisi</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>52</h2>
+                </div>
+                <h1>What is the term for the act of admitting one's sins to a priest in the Sacrament of Reconciliation? </h1>
+                <ol type="a">
+                    <li>confession</li>
+                    <li>absolution</li>
+                    <li>contrition</li>
+                    <li>penance</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>53</h2>
+                </div>
+                <h1>Who is known as the patron saint of students? </h1>
+                <ol type="a">
+                    <li>Saint Joseph of Cupertino </li>
+                    <li>Saint Thomas Aquinas </li>
+                    <li> Saint Catherine of Alexandria </li>
+                    <li>Saint Augustine of Hippo</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>54</h2>
+                </div>
+                <h1>What is the term for the doctrine that the bread and wine used in the Eucharist become the actual body and blood of Jesus Christ? </h1>
+                <ol type="a">
+                    <li>Transubstantiation</li>
+                    <li>Consubstantiation</li>
+                    <li>Transformation </li>
+                    <li>Transfiguration</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>55</h2>
+                </div>
+                <h1>Who is known as the patron saint of lost causes and desperate situations? </h1>
+                <ol type="a">
+                    <li>Saint Rita of Cascia </li>
+                    <li>Saint Jude Thaddeus </li>
+                    <li>Saint Anthony of Padua </li>
+                    <li>Saint Benedict Joseph Labre</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>56</h2>
+                </div>
+                <h1>Which of the following is not one of the four Gospels in the New Testament? </h1>
+                <ol type="a">
+                    <li>Genesis </li>
+                    <li>Matthew </li>
+                    <li>Luke</li>
+                    <li>john</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>57</h2>
+                </div>
+                <h1>What is the term for the act of formally excluding someone from participation in the sacraments and services of the Church? </h1>
+                <ol type="a">
+                    <li>Excommunication </li>
+                    <li>anathema</li>
+                    <li>exorcism</li>
+                    <li>Interdict</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>58</h2>
+                </div>
+                <h1>Who was the mother of Jesus according to Catholic belief? </h1>
+                <ol type="a">
+                    <li>elizabeth</li>
+                    <li>mary</li>
+                    <li>martha</li>
+                    <li>ruth</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>59</h2>
+                </div>
+                <h1>Which sacrament is known as the "Sacrament of Reconciliation" or "Confession"? </h1>
+                <ol type="a">
+                    <li>Baptism</li>
+                    <li>eucharist</li>
+                    <li>confirmation</li>
+                    <li>penance</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>60</h2>
+                </div>
+                <h1>Who is known as the patron saint of animals and the environment? </h1>
+                <ol type="a">
+                    <li>Saint Anthony of Padua </li>
+                    <li>Saint Francis of Assisi </li>
+                    <li> Saint Teresa of Avila </li>
+                    <li>Saint Ignatius Loyola</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>61</h2>
+                </div>
+                <h1>Who was the first Christian martyr and is considered one of the deacons of the early Church? </h1>
+                <ol type="a">
+                    <li>Saint Stephen</li>
+                    <li>Saint Lawrence</li>
+                    <li>Saint sebastian</li>
+                    <li>saint agnes</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>62</h2>
+                </div>
+                <h1>What is the term for the process by which a baptized person is strengthened in the Holy Spirit through prayer and the laying on of hands? </h1>
+                <ol type="a">
+                    <li>baptism</li>
+                    <li>confirmation</li>
+                    <li>eucharist</li>
+                    <li>ordination</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>63</h2>
+                </div>
+                <h1>Who is the patron saint of animals, the environment, and ecologists? </h1>
+                <ol type="a">
+                    <li>saint francis of assisi</li>
+                    <li>saint anthony of padua</li>
+                    <li>saint benedict of nursia</li>
+                    <li>saint dominic</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>64</h2>
+                </div>
+                <h1>What is the term for the ceremonial washing of the feet, traditionally performed by the Pope on Maundy Thursday? </h1>
+                <ol type="a">
+                    <li>Eucharist</li>
+                    <li>transubstantiation</li>
+                    <li>mandatum</li>
+                    <li>liturgy</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>65</h2>
+                </div>
+                <h1>Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>66</h2>
+                </div>
+                <h1>Which sacrament is known as the "Sacrament of Reconciliation" or "Confession</h1>
+                <ol type="a">
+                    <li>baptism</li>
+                    <li>eucharist</li>
+                    <li>confirmation</li>
+                    <li>penance</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>67</h2>
+                </div>
+                <h1>Who is the patron saint of lost items and travelers? </h1>
+                <ol type="a">
+                    <li>saint jude</li>
+                    <li>saint christopher</li>
+                    <li>saint anthony</li>
+                    <li>saint theresa of avila</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>68</h2>
+                </div>
+                <h1>In Catholicism, what is the term for the doctrine that the bread and wine used in the Eucharist become the actual body and blood of Jesus Christ? </h1>
+                <ol type="a">
+                    <li>transubstantiation</li>
+                    <li>consubstantiation</li>
+                    <li>transformation</li>
+                    <li>transfiguration</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>69</h2>
+                </div>
+                <h1> Who is known as the "Angelic Doctor" and is considered one of the greatest theologians in the history of the Catholic Church? </h1>
+                <ol type="a">
+                    <li>saint augustine</li>
+                    <li>saint jerome</li>
+                    <li>saint thomas aquinas</li>
+                    <li>saint francis of assisi</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>70</h2>
+                </div>
+                <h1>What is the name of the governing body of the Catholic Church, with the Pope at its head? </h1>
+                <ol type="a">
+                    <li>college of cardinals</li>
+                    <li>holy see</li>
+                    <li>vatican council</li>
+                    <li>roman curia</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>71</h2>
+                </div>
+                <h1>What biblical event does the time of lent represent?</h1>
+                <ol type="a">
+                    <li>The forty days Moses spent on mount Sinai with God</li>
+                    <li>Jesus retreated into the wilderness, where he fasted for forty days, and was tempted by the devil.</li>
+                    <li>The forty days and night Elijah spent walking to mount Horeb</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>72</h2>
+                </div>
+                <h1>What is scripture?</h1>
+                <ol type="a">
+                    <li>Inspired word of God</li>
+                    <li>Book written by God for his people</li>
+                    <li>A collection of stories written before the time of Christ</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>73</h2>
+                </div>
+                <h1>The old testament tells us about God’s relationship with the ______ people</h1>
+                <ol type="a">
+                    <li>Christian</li>
+                    <li>pharisee</li>
+                    <li>muslim</li>
+                    <li>israelite</li>
+                    <li>prophet</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>74</h2>
+                </div>
+                <h1>The four _________ are written accounts of the life, death, resurrection and ascension of Jesus Christ</h1>
+                <ol type="a">
+                    <li>epistles</li>
+                    <li>evangelist</li>
+                    <li>testaments</li>
+                    <li>gospels</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>75</h2>
+                </div>
+                <h1>What name does Zechariah have to put for the baby?</h1>
+                <ol type="a">
+                    <li>thomas</li>
+                    <li>moses</li>
+                    <li>john</li>
+                    <li>peter</li>
+                    <li>abihu</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>76</h2>
+                </div>
+                <h1>What is the “Good News”?</h1>
+                <ol type="a">
+                    <li>That through his suffering and death, Jesus paid for our sins.</li>
+                    <li>That Jesus has, by his cross and resurrection, opened the gates of heaven</li>
+                    <li>That through Jesus sacrifice, we have the hope of eternal life with God in heaven</li>
+                    <li>All of the above</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>77</h2>
+                </div>
+                <h1>The four gospels are _________</h1>
+                <ol type="a">
+                    <li>Mathew, Luke, John and Peter</li>
+                    <li>Matthew, mark, Luke and john</li>
+                    <li>Genesis, exodus, Leviticus and Deuteronomy</li>
+                    <li>Genesis, exodus, Leviticus and psalms</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>78</h2>
+                </div>
+                <h1>Three of these gospels are called _________ gospels because they basically present the same view of the life, death and resurrection of Jesus.</h1>
+                <ol type="a">
+                    <li>catholic</li>
+                    <li>pauline</li>
+                    <li>synoptic</li>
+                    <li>expatriate</li>
+                    <li>epistle</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>79</h2>
+                </div>
+                <h1>Which of these is NOT a synoptic gospel (pick two)</h1>
+                <ol type="a">
+                    <li>matthew</li>
+                    <li>mark</li>
+                    <li>luke</li>
+                    <li>john</li>
+                    <li>peter</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>80</h2>
+                </div>
+                <h1>There are 21 letters in the New Testament. These letters were written to early Christian communities. These letters are called __________</h1>
+                <ol type="a">
+                    <li>messages</li>
+                    <li>apocalypse</li>
+                    <li>epistles</li>
+                    <li>fiction</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>81</h2>
+                </div>
+                <h1>The majority of the letters in the new testament were written by the apostle______</h1>
+                <ol type="a">
+                    <li>peter</li>
+                    <li>paul</li>
+                    <li>james</li>
+                    <li>john</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>82</h2>
+                </div>
+                <h1>The New Testament letters written by Paul are called Pauline epistles. The rest of the letters are called ______</h1>
+                <ol type="a">
+                    <li>catholic epistles</li>
+                    <li>singular epistles</li>
+                </ol>
+            </div>
+
+  
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>83</h2>
+                </div>
+                <h1>The book of revelation contains many ______ to tell how God is overcoming evil.</h1>
+                <ol type="a">
+                    <li>stories</li>
+                    <li>parables</li>
+                    <li>symbols</li>
+                    <li>signs</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>84</h2>
+                </div>
+                <h1>What was the name of the priest when Herod, king of Judea ruled?</h1>
+                <ol type="a">
+                    <li>Melchizedek</li>
+                    <li>aaron</li>
+                    <li>nadab</li>
+                    <li>abihu</li>
+                    <li>zechariah</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>85</h2>
+                </div>
+                <h1>Zechariah belongs to which priestly division?</h1>
+                <ol type="a">
+                    <li>abihu</li>
+                    <li>moses</li>
+                    <li>abijah</li>
+                    <li>aaron</li>
+                    <li>melchizedek</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>86</h2>
+                </div>
+                <h1>What was the good news that the angel brought to Zechariah </h1>
+                <ol type="a">
+                    <li>He is going to lead God’s people in future </li>
+                    <li>He was going to be a prophet </li>
+                    <li>He was going to have a son </li>
+                    <li>Laws for serving as a priest to God </li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>87</h2>
+                </div>
+                <h1>What is called the “sacrament of conversion?”</h1>
+                <ol type="a">
+                    <li>baptism</li>
+                    <li>reconciliation</li>
+                    <li>eucharist</li>
+                    <li>none of these</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>88</h2>
+                </div>
+                <h1>Who can perform a valid confirmation? Pick three.</h1>
+                <ol type="a">
+                    <li>bishop</li>
+                    <li>The priest with the permission of the bishop</li>
+                    <li>Priest in an emergency situation</li>
+                    <li>Priest in any situation</li>
+                    <li>The law person with the permission of the bishop.      </li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>89</h2>
+                </div>
+                <h1>Who can consecrate the Eucharist? Pick two.</h1>
+                <ol type="a">
+                    <li>bishop</li>
+                    <li>priest</li>
+                    <li>deacon</li>
+                    <li>nun, with the permission of the bishop</li>
+                    <li>the lay person with the permission of the bishop</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>90</h2>
+                </div>
+                <h1>Who can distribute the Eucharist? Pick four.</h1>
+                <ol type="a">
+                    <li>bishop</li>
+                    <li>priest</li>
+                    <li>deacon</li>
+                    <li>the lay person authorized by the bishop</li>
+                    <li>incase of emergency, any lay person</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>91</h2>
+                </div>
+                <h1>Who can hear confession and give absolution? Pick two.</h1>
+                <ol type="a">
+                   <li>bishop</li>
+                    <li>priest</li>
+                    <li>deacon</li>
+                    <li>the lay person authorized by the bishop</li>
+                    <li>incase of emergency, any lay person</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>92</h2>
+                </div>
+                <h1>who can anoint the sick? Pick two.</h1>
+                <ol type="a">
+                   <li>bishop</li>
+                    <li>priest</li>
+                    <li>deacon</li>
+                    <li>nun</li>
+                    <li>incase of emergency, any lay person</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>93</h2>
+                </div>
+                <h1>who can confer holy orders</h1>
+                <ol type="a">
+                    <li>bishop (normally 3)</li>
+                    <li>priest (normally 3)</li>
+                    <li>deacon (normally 3)</li>
+                    <li>nun (normally 3)</li>
+                    <li>in an emergency, any 3 lay person</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>94</h2>
+                </div>
+                <h1>___________ confers the sacrament of matrimony</h1>
+                <ol type="a">
+                    <li>bishop</li>
+                    <li>husband and wife</li>
+                    <li>priest</li>
+                    <li>none</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>95</h2>
+                </div>
+                <h1>When were the seven sacraments formally defined by the church?</h1>
+                <ol type="a">
+                    <li>the first vatican council</li>
+                    <li>the council of nicaea</li>
+                    <li>the council of king</li>
+                    <li>the council of trent</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>96</h2>
+                </div>
+                <h1>What are the three sacraments of initiation? </h1>
+                <ol type="a">
+                    <li>baptism</li>
+                    <li>reconciliation</li>
+                    <li>eucharist</li>
+                    <li>confirmation</li>
+                    <li>holy orders</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>97</h2>
+                </div>
+                <h1>The word “baptism” means ________</h1>
+                <ol type="a">
+                    <li>washing</li>
+                    <li>immersion</li>
+                    <li>forgiveness</li>
+                    <li>kindness</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>98</h2>
+                </div>
+                <h1>Lent is _____ days long.</h1>
+                <ol type="a">
+                    <li>40</li>
+                    <li>50</li>
+                    <li>30</li>
+                    <li>45</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>99</h2>
+                </div>
+                <h1>Which religious order is known for its emphasis on education, particularly through schools and universities? </h1>
+                <ol type="a">
+                    <li>franciscans</li>
+                    <li>domicans</li>
+                    <li>jesuits</li>
+                    <li>benedictines</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>100</h2>
+                </div>
+                <h1>what is the color for lent?</h1>
+                <ol type="a">
+                    <li>red</li>
+                    <li>green</li>
+                    <li>white</li>
+                    <li>purple</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>101</h2>
+                </div>
+                <h1>When does lent end?</h1>
+                <ol type="a">
+                    <li>holy thursday at sunset</li>
+                    <li>good friday</li>
+                    <li>after the easter vigil (saturday night)</li>
+                    <li>easter</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>102</h2>
+                </div>
+                <h1>The first day of lent is? </h1>
+                <ol type="a">
+                    <li>good friday</li>
+                    <li>ash wednesday</li>
+                    <li>easter sunday</li>
+                    <li>shrove sunday</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>103</h2>
+                </div>
+                <h1>We usually say that lent lasts 40 days, but if we include Sundays, how long is it? </h1>
+                <ol type="a">
+                    <li>60 days</li>
+                    <li>50 days</li>
+                    <li>46 days</li>
+                    <li>42 days</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>104</h2>
+                </div>
+                <h1>The last Thursday of lent (Holy Thursday), we recall the last night and the last meal that Jesus shares with his disciples. </h1>
+                <ol type="a">
+                    <li>true</li>
+                    <li>false</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>105</h2>
+                </div>
+                <h1>Which word means to give to those in need? </h1>
+                <ol type="a">
+                    <li>fasting</li>
+                    <li>almsgiving</li>
+                    <li>prayer</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>106</h2>
+                </div>
+                <h1>What does the term “doctor of the church” mean?</h1>
+                <ol type="a">
+                    <li>Someone who performs spiritual healings i.e exorcisms and healings</li>
+                    <li>All priests are “doctors of the church” as they heal people through the sacrament of confession</li>
+                    <li>A saint whose writings have provided great learning to the church      </li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>107</h2>
+                </div>
+                <h1>What does the assumption of the Blessed Virgin Mary mean?</h1>
+                <ol type="a">
+                    <li> Mary was conceived without original sin</li>
+                    <li>Mary was chosen to be the mother of Christ</li>
+                    <li>Mary was assumed into the glory of heaven       </li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>108</h2>
+                </div>
+                <h1>What is the white vestment worn by altar servers and priests?</h1>
+                <ol type="a">
+                    <li> thurifer</li>
+                    <li> alb</li>
+                    <li> dress</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>109</h2>
+                </div>
+                <h1>What is the small bowl for the priest to wash his hands during the liturgy of the Eucharist?</h1>
+                <ol type="a">
+                    <li> purificator</li>
+                    <li> finger bowl</li>
+                    <li> chalice</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>110</h2>
+                </div>
+                <h1>What is an aspergillum?</h1>
+                <ol type="a">
+                    <li>A liturgical instrument used to sprinkle holy water</li>
+                    <li>The holy water fountains or font at the entrances of the church </li>
+                    <li>The container for burning incense     </li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>111</h2>
+                </div>
+                <h1>What is an angel?</h1>
+                <ol type="a">
+                    <li>a messenger of god</li>
+                    <li>a spiritual being of god</li>
+                    <li>all of the above</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>112</h2>
+                </div>
+                <h1>Is it liturgically correct to pray the holy rosary during mass?</h1>
+                <ol type="a">
+                    <li>yes</li>
+                    <li>no</li>
+                    <li>Yes but only on Marian feast days   </li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>113</h2>
+                </div>
+                <h1>from where do we get the teachings of our faith?</h1>
+                <ol type="a">
+                    <li>the pope only</li>
+                    <li>the magisterium and scripture</li>
+                    <li>tradition, the magisterium and scripture</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>114</h2>
+                </div>
+                <h1>At what age was Christ believed to be crucified?</h1>
+                <ol type="a">
+                    <li>30 years of age</li>
+                    <li>33 years of age</li>
+                    <li>29 years of age</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>115</h2>
+                </div>
+                <h1> On what day was Jesus named and circumcised?</h1>
+                <ol type="a">
+                    <li>2nd day</li>
+                    <li>8th day</li>
+                    <li>14th day</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>116</h2>
+                </div>
+                <h1>A deacon can ______ </h1>
+                <ol type="a">
+                    <li>perform baptisms and preach</li>
+                    <li>hear confessions</li>
+                    <li>offer mass</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>117</h2>
+                </div>
+                <h1>The Ambo is _____ </h1>
+                <ol type="a">
+                    <li>The small table near the altar designed to hold the water and wine before consecration</li>
+                    <li>The lectern where the word of God is proclaimed</li>
+                    <li>The white cloth used to clean the chalice containing the precious </li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>118</h2>
+                </div>
+                <h1>Who was the father of john the Baptist?</h1>
+                <ol type="a">
+                    <li>zechariah</li>
+                    <li>zebedee</li>
+                    <li>aaron</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>119</h2>
+                </div>
+                <h1>For how many pieces of silver did Judas betray Christ?</h1>
+                <ol type="a">
+                    <li>20</li>
+                    <li>30</li>
+                    <li>40</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>120</h2>
+                </div>
+                <h1>What was the name of the man who requested Jesus body for burial?</h1>
+                <ol type="a">
+                    <li>nicodemus</li>
+                    <li>joseph</li>
+                    <li>philip</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>121</h2>
+                </div>
+                <h1>The author of 2nd john was _______</h1>
+                <ol type="a">
+                    <li>Matthew</li>
+                    <li>Mark</li>
+                    <li>luke</li>
+                    <li>john</li>
+                    <li>peter</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>122</h2>
+                </div>
+                <h1>What is the term for the doctrine that the souls of the faithful departed undergo purification before entering heaven? </h1>
+                <ol type="a">
+                    <li>purgatory</li>
+                    <li>limbo</li>
+                    <li>hell</li>
+                    <li>paradise</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>123</h2>
+                </div>
+                <h1> What forms does penance take in Christian life?</h1>
+                <ol type="a">
+                    <li>Penance can be expresses in many and various ways</li>
+                    <li>Penance can be expressed in many and various ways but above all in fasting, prayer and almsgiving.</li>
+                    <li>By abstaining from meat on Fridays</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>124</h2>
+                </div>
+                <h1>Which is the first day of lent? </h1>
+                <ol type="a">
+                    <li>ash wednesday</li>
+                    <li>valentine's day</li>
+                    <li>shrove sunday</li>
+                    <li>maundy thursday</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>125</h2>
+                </div>
+                <h1>Which of these is the last Sunday of lent? </h1>
+                <ol type="a">
+                    <li>easter sunday</li>
+                    <li>whit sunday</li>
+                    <li>palm sunday</li>
+                    <li>pentecost sunday</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>126</h2>
+                </div>
+                <h1>Lent is known to be 40 days long even though from ash Wednesday to the last Saturday of the season ii is 46 days. Why?</h1>
+                <ol type="a">
+                    <li>sundays are not included</li>
+                    <li>mondays are not included</li>
+                    <li>counting error</li>
+                    <li>saturdays are not included</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>127</h2>
+                </div>
+                <h1>Which feast day always comes during lent? </h1>
+                <ol type="a">
+                    <li>annunciation</li>
+                    <li>assumption</li>
+                    <li>st joseph's feast</li>
+                    <li>presentation</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>128</h2>
+                </div>
+                <h1>How is ash for Ash Wednesday made?</h1>
+                <ol type="a">
+                    <li>By burning palms used during previous palm Sunday</li>
+                    <li>By burning logs</li>
+                    <li>By burning books</li>
+                    <li>By burning clothes</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>129</h2>
+                </div>
+                <h1>On which day is Chrism mass? </h1>
+                <ol type="a">
+                    <li>ash wednesday</li>
+                    <li>maundy thursday</li>
+                    <li>good friday</li>
+                    <li>palm sunday</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>130</h2>
+                </div>
+                <h1>When thinking about the liturgy, what is different about good Friday? </h1>
+                <ol type="a">
+                    <li>day of fast</li>
+                    <li>day of abstinence</li>
+                    <li>day of penance</li>
+                    <li>day when mass is not celebrated</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>131</h2>
+                </div>
+                <h1>Which devotion has special place during lent? </h1>
+                <ol type="a">
+                    <li>Novena</li>
+                    <li>triduum</li>
+                    <li>stations of the cross</li>
+                    <li>retreat</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>132</h2>
+                </div>
+                <h1>Which of the following does not take place on good Friday?</h1>
+                <ol type="a">
+                    <li>intercessory prayers</li>
+                    <li>reading from the scriptures</li>
+                    <li>consecration</li>
+                    <li>veneration</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>133</h2>
+                </div>
+                <h1>Which two people appeared with Jesus on the mount of transfiguration:</h1>
+                <ol type="a">
+                    <li>abraham & noah</li>
+                    <li>abraham & adam</li>
+                    <li>elijah & elisha</li>
+                    <li>moses & elijah </li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>134</h2>
+                </div>
+                <h1>Which three disciples went with Jesus to the mountain?</h1>
+                <ol type="a">
+                    <li>Peter, James & John</li>
+                    <li>Matthew, Mark & Luke</li>
+                    <li>Matthew, Mark & Luke</li>
+                    <li>None of the above</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>135</h2>
+                </div>
+                <h1> What did the father call Jesus on the mountain?</h1>
+                <ol type="a">
+                    <li>The greatest prophet ever</li>
+                    <li>The son of man</li>
+                    <li>The word made flesh</li>
+                    <li>my beloved son</li>
+                </ol>
+            </div>
+
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>136</h2>
+                </div>
+                <h1>The Romans got involved in the case regarding the trial of Jesus because …… </h1>
+                <ol type="a">
+                    <li>The Jewish authorities couldn’t execute</li>
+                    <li>They didn’t agree with Jewish justice</li>
+                    <li>They were the conquering army</li>
+                    <li>They were particular about such things</li>
+                </ol>
+            </div>
+
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>137</h2>
+                </div>
+                <h1>When Pilate wanted to let Jesus go, the Jewish authorities said he would be ….</h1>
+                <ol type="a">
+                    <li>No friend of Caesar</li>
+                    <li>out of some bribe money</li>
+                    <li>in trouble with his wife</li>
+                    <li>looking for trouble</li>
+                </ol>
+            </div>
+
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>138</h2>
+                </div>
+                <h1>The cause of death listed for a crucified man would be ………</h1>
+                <ol type="a">
+                    <li>asphyxiation</li>
+                    <li>shock</li>
+                    <li>loss of blood</li>
+                    <li>heart attack</li>
+                </ol>
+            </div>
+
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>139</h2>
+                </div>
+                <h1>After the resurrection, the total number of witnesses who saw Jesus alive was about </h1>
+                <ol type="a">
+                    <li>500+</li>
+                    <li>100</li>
+                    <li>25</li>
+                    <li>12</li>
+                </ol>
+            </div>
+
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>140</h2>
+                </div>
+                <h1>What did luke say the two old testament saints were discussing with Jesus?</h1>
+                <ol type="a">
+                    <li>their time in heaven</li>
+                    <li>he didn't say</li>
+                    <li>his depature in jerusalem</li>
+                    <li>the end of the world</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>141</h2>
+                </div>
+                <h1>What will the baby John the baptist, have from birth?</h1>
+                <ol type="a">
+                    <li>sing well</li>
+                    <li>speak well</li>
+                    <li>guide well</li>
+                    <li>strength</li>
+                    <li>holy spirit</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>142</h2>
+                </div>
+                <h1>In whose spirit and power will John the son of Zechariah go?</h1>
+                <ol type="a">
+                    <li>gideon</li>
+                    <li>samuel</li>
+                    <li>elisha</li>
+                    <li>elijah</li>
+                    <li>moses</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>143</h2>
+                </div>
+                <h1>Why does the Catholic Church use the colour red in eccliastical vestments at certain times of the year?</h1>
+                <ol type="a">
+                    <li>Red signifies the holy spirit</li>
+                    <li>Red means hope of salvation</li>
+                    <li>Red signifies the fire love towards God, and the shedding of blood for  faith</li>
+                    <li>Red signifies the joy and purity of the soul </li>
+                    <li>Red is the colour of humility and penance        </li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>144</h2>
+                </div>
+                <h1>In the liturgical language and architecture of the church what does the choir represent?</h1>
+                <ol type="a">
+                    <li>A joyful noise unto the lord</li>
+                    <li>With the high altar, the choir represents the head of our divine redeemer.</li>
+                    <li>It represents the voice of the people as they sing hymns of praise and worship to God</li>
+                    <li>It represents the token of our salvation, the cross of christ</li>
+
+                </ol>
+            </div>
+
+               <div class="question-card">
+                <div class="num">
+                    <h2>145</h2>
+                </div>
+                <h1>In the old testament, who was the great-grandmother of king David?</h1>
+                <ol type="a">
+                    <li>ruth</li>
+                    <li>esther</li>
+                    <li>sarah</li>
+                    <li>deborah</li>
+                </ol>
+            </div>
+
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>146</h2>
+                </div>
+                <h1>what is a requiem mass?</h1>
+                <ol type="a">
+                    <li>A mass said for a special intention, public or private, outside the office of the day</li>
+                    <li>Mass for the dead</li>
+                    <li>A mass or the season, agreeing with the office of breviary</li>
+                    <li>A high mass celebrated by a bishop with special ceremonies</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>147</h2>
+                </div>
+                <h1>In the traditional language of the Catholic Church, in the proper of the seasons, what is the series of Whitsunday?</h1>
+                <ol type="a">
+                    <li>The Sundays between Ash Wednesday and Easter.</li>
+                    <li>The entire season between Ash Wednesday and Easter Sunday </li>
+                    <li>The Pentecost cycle between the Saturday before Whitsunday</li>
+                    <li>The season of advent in the traditional calendar</li>
+                    <li>The season where no solemnities occur</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>148</h2>
+                </div>
+                <h1>Why does the Catholic Church use the colour green in its liturgical vestments?</h1>
+                <ol type="a">
+                    <li>Green is used to represent our love of mother earth and her significance in our eternal salvation</li>
+                    <li>Green is the colour of peace, as represented by the modern church being one with the environment and nature</li>
+                    <li>Green is the colour of hope in the liturical vestments of the catholic church</li>
+                    <li>Green is not worn at all by the catholic priests in the liturgical vestments.                   </li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>149</h2>
+                </div>
+                <h1>In the first words Jesus speaks in the Gospel of  St John is a question asking “ what are you looking for?”</h1>
+                <ol type="a">
+                    <li>money</li>
+                    <li>an easy life</li>
+                    <li>jesus christ</li>
+                    <li>fame</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>150</h2>
+                </div>
+                <h1>How do we grasp a hold of God?</h1>
+                <ol type="a">
+                    <li>by being a good person</li>
+                    <li>by assenting to the teachngs of faith</li>
+                    <li>by doing what we want</li>
+                    <li>by doing what feels good</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>151</h2>
+                </div>
+                <h1>How does God reveal himself</h1>
+                <ol type="a">
+                    <li>through fairies</li>
+                    <li>through the teachings of the church</li>
+                    <li>by appearing to us</li>
+                    <li>through what any preacher says</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>152</h2>
+                </div>
+                <h1>In speaking to Moses, who does God reveal himself to be?</h1>
+                <ol type="a">
+                    <li>jesus</li>
+                    <li>the father</li>
+                    <li>i am</li>
+                    <li>the holy spirit</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>153</h2>
+                </div>
+                <h1>Which person of the trinity is not matched correctly with his effect?</h1>
+                <ol type="a">
+                    <li>the father = the creator</li>
+                    <li>the son = the teacher</li>
+                    <li>the holy spirit = the sanctifiers</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>154</h2>
+                </div>
+                <h1>Which of these is not a necessity for friendship according to St Augustine?</h1>
+                <ol type="a">
+                    <li>virtue</li>
+                    <li>popularity</li>
+                    <li>frankness of speech</li>
+                    <li>unity of heart and mind</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>155</h2>
+                </div>
+                <h1>Pentecost is the birthday of the church?</h1>
+                <ol type="a">
+                    <li>true</li>
+                    <li>false</li>
+                </ol>
+            </div>
+
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>156</h2>
+                </div>
+                <h1>Which of these is not an enemy of the church?</h1>
+                <ol type="a">
+                    <li>the world</li>
+                    <li>the flesh</li>
+                    <li>science</li>
+                    <li>the devil</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>157</h2>
+                </div>
+                <h1>21. What is the acknowledgement of God as God, Creator and Savior, Lord and Master of everything called?</h1>
+                <ol type="a">
+                    <li>communion</li>
+                    <li>adoration</li>
+                    <li>benediction</li>
+                    <li>transubstantiation</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>158</h2>
+                </div>
+                <h1>What is a conscious burning desire to receive Holy Communion when unable to do so?</h1>
+                <ol type="a">
+                    <li>sacramental prensence</li>
+                    <li>benediction</li>
+                    <li>eucharist</li>
+                    <li>spiritual communion</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>159</h2>
+                </div>
+                <h1>The word “Eucharist” comes from the Greek word Eucharistein, which means……</h1>
+                <ol type="a">
+                    <li>to give glory</li>
+                    <li>to show love</li>
+                    <li>to give thanks</li>
+                    <li>to celebrate</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>160</h2>
+                </div>
+                <h1> What religion believes that Jesus is in the body and blood after the bread is consecrated?</h1>
+                <ol type="a">
+                    <li>mormon</li>
+                    <li>catholic</li>
+                    <li>baptist</li>
+                    <li>protestant</li>
+                    <li>jewish</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>161</h2>
+                </div>
+                <h1>what is the name of the angel who came to zechariah to announce the birth of John the baptist</h1>
+                <ol type="a">
+                    <li>gabriel</li>
+                    <li>michael</li>
+                    <li>raphael</li>
+                    <li>uriel</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>162</h2>
+                </div>
+                <h1>How long do you have to fast before taking communion in the Catholic Church?</h1>
+                <ol type="a">
+                    <li>One hour</li>
+                    <li>one day</li>
+                    <li>thirty minutes</li>
+                    <li>two hours</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>163</h2>
+                </div>
+                <h1>Which apostle of Jesus is traditionally believed to have been martyred by being crucified upside down? </h1>
+                <ol type="a">
+                    <li>peter</li>
+                    <li>john</li>
+                    <li>james</li>
+                    <li>andrew</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>164</h2>
+                </div>
+                <h1>Which of these is not a part of the liturgy of the word?</h1>
+                <ol type="a">
+                    <li>first reading</li>
+                    <li>penitential rite</li>
+                    <li>prayers of conclusion</li>
+                    <li>creed</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>165</h2>
+                </div>
+                <h1>Which of these is not part of the liturgy of the Eucharist?</h1>
+                <ol type="a">
+                    <li>Reception of the body and blood </li>
+                    <li>General Intercession</li>
+                    <li>presentation of the eucharist</li>
+                    <li>offering made in christ's name</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>166</h2>
+                </div>
+                <h1>Benediction means which of these.</h1>
+                <ol type="a">
+                    <li>to bless </li>
+                    <li>to adore </li>
+                    <li>to thank </li>
+                    <li>to show mercy </li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>167</h2>
+                </div>
+                <h1>Who founded the catholic church?</h1>
+                <ol type="a">
+                    <li>st peter</li>
+                    <li>the pope</li>
+                    <li>jesus</li>
+                    <li>none of the above</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>168</h2>
+                </div>
+                <h1>What is the term for the celebration of the descent of the Holy Spirit upon the apostles, fifty days after Easter? </h1>
+                <ol type="a">
+                    <li>pentecost</li>
+                    <li>ascension</li>
+                    <li>epiphany</li>
+                    <li>transfiguration</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>169</h2>
+                </div>
+                <h1>Who is considered the first martyr of the Christian faith, stoned to death for his beliefs? </h1>
+                <ol type="a">
+                    <li>saint peter</li>
+                    <li>saint stephen</li>
+                    <li>saint paul</li>
+                    <li>saint andrew</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>170</h2>
+                </div>
+                <h1>Which sacrament involves the anointing with oil and prayers for healing and spiritual strength? </h1>
+                <ol type="a">
+                    <li>baptism</li>
+                    <li>confirmation</li>
+                    <li>anointing of the sick</li>
+                    <li>holy orders</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>171</h2>
+                </div>
+                <h1>Who was the mother of John the Baptist and a relative of the Virgin Mary? </h1>
+                <ol type="a">
+                    <li>elizabeth</li>
+                    <li>anna</li>
+                    <li>martha</li>
+                    <li>mary magdalene</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>172</h2>
+                </div>
+                <h1>What is the term for the doctrine that Mary, the mother of Jesus, was conceived without original sin? </h1>
+                <ol type="a">
+                    <li>immaculate conception</li>
+                    <li>assumption</li>
+                    <li>perpetual virginity</li>
+                    <li>dormition</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>173</h2>
+                </div>
+                <h1>Who was the Roman governor who presided over the trial of Jesus and ultimately ordered his crucifixion? </h1>
+                <ol type="a">
+                    <li>pontius pilate</li>
+                    <li>herod antipas</li>
+                    <li>caesar augustus</li>
+                    <li>tiberius</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>174</h2>
+                </div>
+                <h1> Which of the following is not one of the three theological virtues in Catholicism? </h1>
+                <ol type="a">
+                    <li>faith</li>
+                    <li>hope</li>
+                    <li>love</li>
+                    <li>charity</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>175</h2>
+                </div>
+                <h1> Who was the first female disciple of Jesus and witnessed his crucifixion and resurrection? </h1>
+                <ol type="a">
+                    <li>mary magdalene</li>
+                    <li>martha</li>
+                    <li>mary of bethany</li>
+                    <li>mary, the mother of jesus</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>176</h2>
+                </div>
+                <h1>Who was the Jewish high priest who presided over the trial of Jesus before the Sanhedrin? </h1>
+                <ol type="a">
+                    <li>caiaphas</li>
+                    <li>annas</li>
+                    <li>gamaliel</li>
+                    <li>nicodemus</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>177</h2>
+                </div>
+                <h1>Which pope is known for issuing the papal bull that declared the doctrine of papal infallibility? </h1>
+                <ol type="a">
+                    <li>pope pius IX</li>
+                    <li>pope leo XIII</li>
+                    <li>pope gregory</li>
+                    <li>pope john paul II</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>178</h2>
+                </div>
+                <h1>What is the term for the prayerful reflection on events from the life of Jesus and Mary? </h1>
+                <ol type="a">
+                    <li>Novena</li>
+                    <li>rosary</li>
+                    <li>liturgy of the hours</li>
+                    <li>chaplet</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>179</h2>
+                </div>
+                <h1>Who was the Roman soldier traditionally believed to have pierced the side of Jesus with a spear during his crucifixion? </h1>
+                <ol type="a">
+                    <li>longinus</li>
+                    <li>marcus</li>
+                    <li>centurion</li>
+                    <li>cornelius</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>180</h2>
+                </div>
+                <h1>What is the term for the official teaching authority of the Catholic Church, vested in the Pope and bishops? </h1>
+                <ol type="a">
+                    <li>magisterium</li>
+                    <li>apostolic succession</li>
+                    <li>papal primacy</li>
+                    <li>episcopla collegiality</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>181</h2>
+                </div>
+                <h1>Who was the Roman emperor who legalized Christianity with the Edict of Milan in 313 AD? </h1>
+                <ol type="a">
+                    <li>Nero</li>
+                    <li>constantine the great</li>
+                    <li>diocletian</li>
+                    <li>augustus</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>182</h2>
+                </div>
+                <h1>Which of the following is not one of the Seven Sacraments recognized by the Catholic  </h1>
+                <ol type="a">
+                    <li>Marriage</li>
+                    <li>holy order</li>
+                    <li>penitence</li>
+                    <li>christmas</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>183</h2>
+                </div>
+                <h1>Who was the founder of the Franciscan Order, known for his love of poverty and nature? </h1>
+                <ol type="a">
+                    <li>saint francis of assisi</li>
+                    <li>saint dominic</li>
+                    <li>saint ignatius loyola</li>
+                    <li>saint benedict of nursia</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>184</h2>
+                </div>
+                <h1>What is the term for the act of declaring a marriage null and void, as if it had never occurred? </h1>
+                <ol type="a">
+                    <li>divorce</li>
+                    <li>annulment</li>
+                    <li>separation</li>
+                    <li>dissolution</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>185</h2>
+                </div>
+                <h1>Who is the patron saint of mothers and wives, known for her steadfast faith in God? </h1>
+                <ol type="a">
+                    <li>saint monica</li>
+                    <li>saint anne</li>
+                    <li>saint helena</li>
+                    <li>saint elizabeth</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>186</h2>
+                </div>
+                <h1>What is the term for the doctrine that asserts the bodily taking up of the Virgin Mary into Heaven? </h1>
+                <ol type="a">
+                    <li>dormition</li>
+                    <li>assumption</li>
+                    <li>immaculate conception</li>
+                    <li>ascension</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>187</h2>
+                </div>
+                <h1>Who was the Roman centurion who converted to Christianity after witnessing the crucifixion of Jesus? </h1>
+                <ol type="a">
+                    <li>cornelius</li>
+                    <li>longinus</li>
+                    <li>marcus</li>
+                    <li>centurion</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>188</h2>
+                </div>
+                <h1>What is the term for the period of preparation before Christmas in the Catholic liturgical calendar? </h1>
+                <ol type="a">
+                    <li>advent</li>
+                    <li>lent</li>
+                    <li>easter</li>
+                    <li>pentecost</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>189</h2>
+                </div>
+                <h1>Who was the Pope known for his efforts to reform the Catholic Church during the Counter-Reformation? </h1>
+                <ol type="a">
+                    <li>Pope Gregory XIII </li>
+                    <li>Pope paul III</li>
+                    <li>Pope pius V</li>
+                    <li>Pope pius VI</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>190</h2>
+                </div>
+                <h1>What is the term for the Catholic belief in the continued existence of the soul after death? </h1>
+                <ol type="a">
+                    <li>resurrection</li>
+                    <li>eternal life</li>
+                    <li>reincarnation</li>
+                    <li>afterlife</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>191</h2>
+                </div>
+                <h1>Who was the apostle known as the "doubting Thomas" because he initially doubted Jesus' resurrection? </h1>
+                <ol type="a">
+                    <li>saint peter</li>
+                    <li>saint paul</li>
+                    <li>saint thomas</li>
+                    <li>saint andrew</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>192</h2>
+                </div>
+                <h1>Which sacrament signifies the union of a man and a woman in marriage and is considered a covenant before God? </h1>
+                <ol type="a">
+                    <li>baptism</li>
+                    <li>eucharist</li>
+                    <li>matrimony</li>
+                    <li>holy orders</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>193</h2>
+                </div>
+                <h1>Which sacrament is known as the "Sacrament of Reconciliation" or "Confession</h1>
+                <ol type="a">
+                    <li>baptism</li>
+                    <li>eucharist</li>
+                    <li>confirmation</li>
+                    <li>penance</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>194</h2>
+                </div>
+                <h1>Who is the patron saint of musicians and singers? </h1>
+                <ol type="a">
+                    <li>saint cecilia</li>
+                    <li>saint gregory the great</li>
+                    <li>saint ambrose</li>
+                    <li>saint scholastica</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>195</h2>
+                </div>
+                <h1>What is the term for the belief in the existence of only one God, as opposed to multiple gods? </h1>
+                <ol type="a">
+                    <li>monotheism</li>
+                    <li>polytheism</li>
+                    <li>pantheism</li>
+                    <li>atheism</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>196</h2>
+                </div>
+                <h1>74. Who is the patron saint of workers and the universal Church? </h1>
+                <ol type="a">
+                    <li>saint peter</li>
+                    <li>saint joseph</li>
+                    <li>saint paul</li>
+                    <li>saint john the baptist</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>197</h2>
+                </div>
+                <h1> What is the name of the document containing the core beliefs of the Catholic Church? </h1>
+                <ol type="a">
+                    <li>The nicene creed</li>
+                    <li>The apostles' creed</li>
+                    <li>The ten commandments</li>
+                    <li>The catechism of the catholic doctrine</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>198</h2>
+                </div>
+                <h1>What is the term for the process by which an individual becomes a saint in the Catholic Church? </h1>
+                <ol type="a">
+                    <li>canonization</li>
+                    <li>beatification</li>
+                    <li>sanctification</li>
+                    <li>excommunication</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>199</h2>
+                </div>
+                <h1>What is the name of the room in a Catholic church where the Eucharist is kept? </h1>
+                <ol type="a">
+                    <li>altar</li>
+                    <li>narthex</li>
+                    <li>sacristy</li>
+                    <li>tabernacle</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>200</h2>
+                </div>
+                <h1> Which ecumenical council, held in the 16th century, addressed issues raised by the Protestant Reformation? </h1>
+                <ol type="a">
+                    <li>Council of Trent </li>
+                    <li>first vatican council</li>
+                    <li>council of Nicaea</li>
+                    <li>second vatican council</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>201</h2>
+                </div>
+                <h1>Which of the following is not one of the theological virtues in Catholicism? </h1>
+                <ol type="a">
+                    <li>faith</li>
+                    <li>hope</li>
+                    <li>charity</li>
+                    <li>humility</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>202</h2>
+                </div>
+                <h1> Who is known as the "Little Flower" and is a popular saint known for her simplicity and devotion? </h1>
+                <ol type="a">
+                    <li>saint teresa of avila</li>
+                    <li>saint catherine of siena</li>
+                    <li>saint theresa of lisieux</li>
+                    <li>saint clare of assisi</li>
+                </ol>
+            </div>
+
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>203</h2>
+                </div>
+                <h1>Which pope is known for convening the Second Vatican Council, a significant event in the modernization of the Catholic Church? </h1>
+                <ol type="a">
+                    <li>pope pius XIII</li>
+                    <li>pope john XXII</li>
+                    <li>pope Paul VI</li>
+                    <li>pope john paul II</li>
+                </ol>
+            </div>
+
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>204</h2>
+                </div>
+                <h1>What is the name of the residence of the Pope in Vatican City? </h1>
+                <ol type="a">
+                    <li>vatican palace</li>
+                    <li>apostolic palace</li>
+                    <li>papal palace</li>
+                    <li>pontifical palace</li>
+                </ol>
+            </div>
+
+              <div class="question-card">
+                <div class="num">
+                    <h2>205</h2>
+                </div>
+                <h1>Who is considered the "Father of Western Monasticism" and founded a monastery in Italy in the 6th century? </h1>
+                <ol type="a">
+                    <li>Saint Benedict of Nursia </li>
+                    <li>Saint patrick</li>
+                    <li>Saint augustine of hippo</li>
+                    <li>Saint francis of assisi</li>
+                </ol>
+            </div>
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        const searchInput = document.getElementById('search-input');
+        const questionCards = document.querySelectorAll('.question-card');
+
+        function filterCards(searchQuery) {
+            const nothingFound = document.getElementById("nothing-alert");
+            let number = 0;
+
+            questionCards.forEach(function(card){
+                const questionNumber = card.querySelector("h2").textContent.toLowerCase();
+
+                if (questionNumber.includes(searchQuery.toLowerCase())) {
+                    nothingFound.style.display = "none";
+                    card.style.display = "flex";
+                    number++;
+                } else {
+                    card.style.display = "none";
+                }
+            });
+
+            if (number === 0) {
+                nothingFound.style.display = "block";
+            }
+        }
+
+        searchInput.addEventListener("input", function(){
+            const searchQuery = searchInput.value.trim();
+            filterCards(searchQuery);
+        });
+    });
+
+
+</script>
+</body>
+</html>

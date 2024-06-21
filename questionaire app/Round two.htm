@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <nav>
+            <div class="logo"><img src="logo 3.jpg" alt=""> NFCS Quiz</div>
+             <ul>
+                <li class="round">Round One</li>
+            </ul>
+            <ul>
+                <li><i>Living the Faith</i></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Input Question number " id="search-input" required><img src="md-search.svg" alt="" autocomplete="off">
+        </div>
+        <div class="questions-slip">
+
+            <div class="question-card">
+                <div class="num rules">
+                    <h2>Rules of the Game</h2>
+                </div>
+                <ol type="a">
+                    <li>no laughing</li>
+                    <li>abraham</li>
+                    <li>moses</li>
+                    <li>isaac</li>
+                </ol>
+            </div>
+
+            <div id="nothing-alert" style="display: none;">
+                <div class="num">
+                    <h2>Nothing found</h2>
+                </div>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>1</h2>
+                </div>
+                <h1> Who was the first man created by God?</h1>
+                <ol type="a">
+                    <li>Adam
+                    <li>Abraham</li>
+                    <li>Moses</li>
+                    <li>Noah</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>2</h2>
+                </div>
+                <h1>Which book tells the story of the Israelites' escape from slavery in Egypt?  </h1>
+                <ol type="a">
+                    <li>Genesis</li>
+                    <li>exodus</li>
+                    <li>leviticus</li>
+                    <li>numbers</li>
+                </ol>
+            </div>
+
+            <div class="question-card">
+                <div class="num">
+                    <h2>3</h2>
+                </div>
+                <h1>Who was the mother of Jesus Christ?</h1>
+                <ol type="a">
+                    <li>Mary magdalene</li>
+                    <li>elizabeth</li>
+                    <li>ruth</li>
+                    <li>mary</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>4</h2>
+                </div>
+                <h1>Which apostle betrayed Jesus Christ before his crucifixion</h1>
+                <ol type="a">
+                    <li>peter</li>
+                    <li>john</li>
+                    <li>judas iscariot</li>
+                    <li>james</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>5</h2>
+                </div>
+                <h1>Which of the following is NOT one of the Ten Commandments?</h1>
+                <ol type="a">
+                    <li>You shall not steal</li>
+                    <li>You shall not convert your neighbor's wife</li>
+                    <li>Honor your father and your mother</li>
+                    <li>You shall not drink alcohol</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>6</h2>
+                </div>
+                <h1> Who is considered the first pope of the Christian Church?</h1>
+                <ol type="a">
+                    <li>saint paul</li>
+                    <li>saint peter</li>
+                    <li>saint john</li>
+                    <li>saint james</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>7</h2>
+                </div>
+                <h1>Which of the following is NOT a Gospel?</h1>
+                <ol type="a">
+                    <li>Matthew</li>
+                    <li>luke</li>
+                    <li>acts</li>
+                    <li>john</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>8</h2>
+                </div>
+                <h1>Who was thrown into the lion's den but survived because of his faith in God?</h1>
+                <ol type="a">
+                    <li>daniel</li>
+                    <li>jonah</li>
+                    <li>moses</li>
+                    <li>david</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>9</h2>
+                </div>
+                <h1> Which of Jesus' apostles famously doubted his resurrection until he saw Jesus with his own eyes?</h1>
+                <ol type="a">
+                    <li>Thomas</li>
+                    <li>Peter</li>
+                    <li>Andrew</li>
+                    <li>James</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>10</h2>
+                </div>
+                <h1> What was the name of the man who carried the cross for Jesus on the way to his crucifixion?</h1>
+                <ol type="a">
+                    <li>Simon of Cyrene</li>
+                    <li>Nicodemus</li>
+                    <li>Joseph of Arimathea</li>
+                    <li>Pontius Pilate</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>11</h2>
+                </div>
+                <h1>Who was the father of Isaac in the Old Testament?</h1>
+                <ol type="a">
+                    <li>Abraham</li>
+                    <li>Jacob</li>
+                    <li>Noah</li>
+                    <li>David</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>12</h2>
+                </div>
+                <h1>Which prophet is known for his encounter with a burning bush and leading the Israelites out of Egypt?</h1>
+                <ol type="a">
+                    <li> Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Ezekiel</li>
+                    <li>Moses</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>13</h2>
+                </div>
+                <h1>In the New Testament, who baptized Jesus in the Jordan River?</h1>
+                <ol type="a">
+                    <li>John the Baptist</li>
+                    <li>Peter</li>
+                    <li>James</li>
+                    <li>Paul</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>14</h2>
+                </div>
+                <h1>Which city served as the capital of Israel during the reign of King David?</h1>
+                <ol type="a">
+                    <li>Bethlehem</li>
+                    <li>Jerusalem</li>
+                    <li>Jericho</li>
+                    <li>Nazareth</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>15</h2>
+                </div>
+                <h1>Who was the first king of Israel?</h1>
+                <ol type="a">
+                    <li>Saul</li>
+                    <li>David</li>
+                    <li>Solomon</li>
+                    <li>Samuel</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>16</h2>
+                </div>
+                <h1>Which apostle is known as the "beloved disciple" in the New Testament?</h1>
+                <ol type="a">
+                    <li>Peter</li>
+                    <li>John</li>
+                    <li>James</li>
+                    <li> Andrew</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>17</h2>
+                </div>
+                <h1>Which event is celebrated by Christians as the birth of Jesus Christ? </h1>
+                <ol type="a">
+                    <li>Easter</li>
+                    <li>Christmas</li>
+                    <li>Pentecost</li>
+                    <li>Epiphany</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>18</h2>
+                </div>
+                <h1>What is the last book of the New Testament?</h1>
+                <ol type="a">
+                    <li>Acts</li>
+                    <li>Revelation</li>
+                    <li>Jude</li>
+                    <li>James</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>19</h2>
+                </div>
+                <h1>Who wrote most of the letters (epistles) in the New Testament?</h1>
+                <ol type="a">
+                    <li>Paul</li>
+                    <li>Peter</li>
+                    <li>John</li>
+                    <li>James</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>20</h2>
+                </div>
+                <h1>Which biblical figure is known for building an ark to survive the Great Flood?</h1>
+                <ol type="a">
+                    <li>Noah</li>
+                    <li>Moses</li>
+                    <li>Abraham</li>
+                    <li>Joshua</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>21</h2>
+                </div>
+                <h1>In the Book of Genesis, who was the wife of Isaac and the mother of Jacob and Esau</h1>
+                <ol type="a">
+                    <li>Rachel</li>
+                    <li>Leah</li>
+                    <li>Sarah</li>
+                    <li>Rebekah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>22</h2>
+                </div>
+                <h1>Which prophet is known for his visions of a valley of dry bones coming to life?</h1>
+                <ol type="a">
+                    <li>Ezekiel</li>
+                    <li> Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>23</h2>
+                </div>
+                <h1>Which apostle is known for his denial of Jesus three times before the crucifixion?</h1>
+                <ol type="a">
+                    <li>Peter</li>
+                    <li>John</li>
+                    <li>Andrew</li>
+                    <li>James</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>24</h2>
+                </div>
+                <h1>What is the longest book in the New Testament?</h1>
+                <ol type="a">
+                    <li> Romans</li>
+                    <li>Acts</li>
+                    <li>Hebrews</li>
+                    <li>Revelation</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>25</h2>
+                </div>
+                <h1>Which biblical figure is known for his wisdom and for building the Temple in Jerusalem</h1>
+                <ol type="a">
+                    <li>Solomon</li>
+                    <li>David</li>
+                    <li>Saul</li>
+                    <li>Joshua</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>26</h2>
+                </div>
+                <h1>What is the first book of the New Testament</h1>
+                <ol type="a">
+                    <li>Matthew</li>
+                    <li>Mark</li>
+                    <li>Luke</li>
+                    <li>John</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>27</h2>
+                </div>
+                <h1>Which Old Testament figure was swallowed by a great fish and remained in its belly for three days and nights?                                                                                                                                           </h1>
+                <ol type="a">
+                    <li>Jonah</li>
+                    <li>Daniel</li>
+                    <li>Job</li>
+                    <li>Elijah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>28</h2>
+                </div>
+                <h1>Who was the brother of Moses and the spokesperson for the Israelites before Pharaoh?</h1>
+                <ol type="a">
+                    <li>Aaron</li>
+                    <li>Miriam</li>
+                    <li>Joshua</li>
+                    <li>Caleb</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>29</h2>
+                </div>
+                <h1>Which king of Israel was known for his wisdom and for judging the famous case of two women claiming to be the mother of the same child?</h1>
+                <ol type="a">
+                    <li>Solomon</li>
+                    <li>David</li>
+                    <li>Saul</li>
+                    <li>Josiah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>30</h2>
+                </div>
+                <h1>What was the name of the angel who visited Mary to announce that she would give birth to Jesus?</h1>
+                <ol type="a">
+                    <li>Gabriel</li>
+                    <li>Michael</li>
+                    <li>Raphael</li>
+                    <li>Uriel</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>31</h2>
+                </div>
+                <h1>Who led the Israelites into the Promised Land after the death of Moses?<h1>
+                <ol type="a">
+                    <li>Joshua</li>
+                    <li>Caleb</li>
+                    <li>Aaron</li>
+                    <li>Gideon</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>32</h2>
+                </div>
+                <h1>What is the shortest book in the New Testament</h1>
+                <ol type="a">
+                    <li>Philemon</li>
+                    <li>Jude</li>
+                    <li>2 John</li>
+                    <li>3 John</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>33</h2>
+                </div>
+                <h1>Who was the father of John the Baptist?</h1>
+                <ol type="a">
+                    <li>Zechariah</li>
+                    <li> Joseph</li>
+                    <li>Simeon</li>
+                    <li>Zacharias</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>34</h2>
+                </div>
+                <h1>What was the occupation of the apostle Matthew before he became a disciple of Jesus?</h1>
+                <ol type="a">
+                    <li>Tax collector</li>
+                    <li>Fisherman</li>
+                    <li>Carpenter</li>
+                    <li>Physician</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>36</h2>
+                </div>
+                <h1>Who was the youngest son of Jacob and the one favored by his father, known for his coat of many colors?</h1>
+                <ol type="a">
+                    <li>Joseph</li>
+                    <li>Benjamin</li>
+                    <li>Reuben</li>
+                    <li>Judah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>37</h2>
+                </div>
+                <h1>What is the name of the mountain where Moses received the Ten Commandments from God?</h1>
+                <ol type="a">
+                    <li>Mount Sinai</li>
+                    <li>Mount Moriah</li>
+                    <li>Mount Carmel</li>
+                    <li>Mount Zion</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>38</h2>
+                </div>
+                <h1>Which apostle is known for his dramatic conversion on the road to Damascus?</h1>
+                <ol type="a">
+                    <li>Paul</li>
+                    <li>Peter</li>
+                    <li>John</li>
+                    <li>James</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>39</h2>
+                </div>
+                <h1>Who was the king of Israel who famously defeated the giant Goliath with a sling and a stone?</h1>
+                <ol type="a">
+                    <li>David</li>
+                    <li>Solomon</li>
+                    <li>Saul</li>
+                    <li>Jonathan</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>40</h2>
+                </div>
+                <h1>Which prophet is known for his struggle with a giant fish and his preaching to the city of Nineveh?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Ezekiel</li>
+                    <li>Jonah</li>
+                    <li>Amos</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>41</h2>
+                </div>
+                <h1>In the Old Testament, who was the mother of Samuel, the prophet and judge?</h1>
+                <ol type="a">
+                    <li>Hannah</li>
+                    <li>Deborah</li>
+                    <li>Jonah</li>
+                    <li>Amos</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>42</h2>
+                </div>
+                <h1>Which king of Israel was known for his wisdom in judging disputes, such as the famous story of two women claiming the same child?</h1>
+                <ol type="a">
+                    <li>Solomon</li>
+                    <li>david</li>
+                    <li>saul</li>
+                    <li>josiah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>43</h2>
+                </div>
+                <h1>What is the last book of the Old Testament?</h1>
+                <ol type="a">
+                    <li>Malachi</li>
+                    <li>Zechariah</li>
+                    <li>Haggai</li>
+                    <li>Nehemiah</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>44</h2>
+                </div>
+                <h1>Who was the mother of John the Baptist?</h1>
+                <ol type="a">
+                    <li>Elizabeth</li>
+                    <li>Mary</li>
+                    <li>sarah</li>
+                    <li>rebecca</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>45</h2>
+                </div>
+                <h1>Which disciple of Jesus is known for his fiery temperament and was one of the first to recognize Jesus as the Messiah?</h1>
+                <ol type="a">
+                    <li>Peter</li>
+                    <li>john</li>
+                    <li>james</li>
+                    <li>andrew</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>46</h2>
+                </div>
+                <h1>What is the term for the belief in the resurrection of the body and the reunion of body and soul in heaven? </h1>
+                <ol type="a">
+                    <li>Resurrection</li>
+                    <li>ascension</li>
+                    <li>transfiguration</li>
+                    <li>last judgement</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>47</h2>
+                </div>
+                <h1>Who was the Pope known for his role in the First Vatican Council and the proclamation of the doctrine of papal infallibility? </h1>
+                <ol type="a">
+                    <li>pope pius IX</li>
+                    <li>Pope Leo XIII </li>
+                    <li>Pope Gregory I </li>
+                    <li>Pope Paul VI</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>48</h2>
+                </div>
+                <h1>What is the term for the sacred meal that commemorates the Last Supper of Jesus with his disciples? </h1>
+                <ol type="a">
+                    <li>eucharist</li>
+                    <li>mass</li>
+                    <li>liturgy</li>
+                    <li>communion</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>49</h2>
+                </div>
+                <h1>Who was the founder of the Dominican Order, known for his work in preaching and theological scholarship? </h1>
+                <ol type="a">
+                    <li>Saint Francis of Assisi </li>
+                    <li>Saint Dominic</li>
+                    <li>Saint Ignatius Loyola </li>
+                    <li>Saint Benedict of Nursia</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>50</h2>
+                </div>
+                <h1>What is the term for the act of acknowledging and expressing sorrow for one's sins? </h1>
+                <ol type="a">
+                    <li>contrition</li>
+                    <li>absolution</li>
+                    <li>repentance</li>
+                    <li>confession</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>51</h2>
+                </div>
+                <h1>51. Who was the founder of the Jesuit order, also known as the Society of Jesus? </h1>
+                <ol type="a">
+                    <li>Saint Ignatius of Loyola </li>
+                    <li>Saint Francis Xavier </li>
+                    <li>Saint Peter Claver </li>
+                    <li>saint francis of assisi</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>52</h2>
+                </div>
+                <h1>What is the term for the act of admitting one's sins to a priest in the Sacrament of Reconciliation? </h1>
+                <ol type="a">
+                    <li>confession</li>
+                    <li>absolution</li>
+                    <li>contrition</li>
+                    <li>penance</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>53</h2>
+                </div>
+                <h1>Who is known as the patron saint of students? </h1>
+                <ol type="a">
+                    <li>Saint Joseph of Cupertino </li>
+                    <li>Saint Thomas Aquinas </li>
+                    <li> Saint Catherine of Alexandria </li>
+                    <li>Saint Augustine of Hippo</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>54</h2>
+                </div>
+                <h1>What is the term for the doctrine that the bread and wine used in the Eucharist become the actual body and blood of Jesus Christ? </h1>
+                <ol type="a">
+                    <li>Transubstantiation</li>
+                    <li>Consubstantiation</li>
+                    <li>Transformation </li>
+                    <li>Transfiguration</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>55</h2>
+                </div>
+                <h1>Who is known as the patron saint of lost causes and desperate situations? </h1>
+                <ol type="a">
+                    <li>Saint Rita of Cascia </li>
+                    <li>Saint Jude Thaddeus </li>
+                    <li>Saint Anthony of Padua </li>
+                    <li>Saint Benedict Joseph Labre</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>56</h2>
+                </div>
+                <h1>Which of the following is not one of the four Gospels in the New Testament? </h1>
+                <ol type="a">
+                    <li>Genesis </li>
+                    <li>Matthew </li>
+                    <li>Luke</li>
+                    <li>john</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>57</h2>
+                </div>
+                <h1>What is the term for the act of formally excluding someone from participation in the sacraments and services of the Church? </h1>
+                <ol type="a">
+                    <li>Excommunication </li>
+                    <li>anathema</li>
+                    <li>exorcism</li>
+                    <li>Interdict</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>58</h2>
+                </div>
+                <h1>Who was the mother of Jesus according to Catholic belief? </h1>
+                <ol type="a">
+                    <li>elizabeth</li>
+                    <li>mary</li>
+                    <li>martha</li>
+                    <li>ruth</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>59</h2>
+                </div>
+                <h1>Which sacrament is known as the "Sacrament of Reconciliation" or "Confession"? </h1>
+                <ol type="a">
+                    <li>Baptism</li>
+                    <li>eucharist</li>
+                    <li>confirmation</li>
+                    <li>penance</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>60</h2>
+                </div>
+                <h1>Who is known as the patron saint of animals and the environment? </h1>
+                <ol type="a">
+                    <li>Saint Anthony of Padua </li>
+                    <li>Saint Francis of Assisi </li>
+                    <li> Saint Teresa of Avila </li>
+                    <li>Saint Ignatius Loyola</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>61</h2>
+                </div>
+                <h1>Who was the first Christian martyr and is considered one of the deacons of the early Church? </h1>
+                <ol type="a">
+                    <li>Saint Stephen</li>
+                    <li>Saint Lawrence</li>
+                    <li>Saint sebastian</li>
+                    <li>saint agnes</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>62</h2>
+                </div>
+                <h1>What is the term for the process by which a baptized person is strengthened in the Holy Spirit through prayer and the laying on of hands? </h1>
+                <ol type="a">
+                    <li>baptism</li>
+                    <li>confirmation</li>
+                    <li>eucharist</li>
+                    <li>ordination</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>63</h2>
+                </div>
+                <h1>Who is the patron saint of animals, the environment, and ecologists? </h1>
+                <ol type="a">
+                    <li>saint francis of assisi</li>
+                    <li>saint anthony of padua</li>
+                    <li>saint benedict of nursia</li>
+                    <li>saint dominic</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>64</h2>
+                </div>
+                <h1>What is the term for the ceremonial washing of the feet, traditionally performed by the Pope on Maundy Thursday? </h1>
+                <ol type="a">
+                    <li>Eucharist</li>
+                    <li>transubstantiation</li>
+                    <li>mandatum</li>
+                    <li>liturgy</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>65</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+             <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+  <div class="question-card">
+                <div class="num">
+                    <h2>35</h2>
+                </div>
+                <h1>35. Which prophet is known for his prophecy about the coming of the Messiah, including the famous verse "For unto us a child is born, unto us a son is given"?</h1>
+                <ol type="a">
+                    <li>Isaiah</li>
+                    <li>Jeremiah</li>
+                    <li>Daniel</li>
+                    <li>Ezekiel</li>
+                </ol>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function(){
+        const searchInput = document.getElementById('search-input');
+        const questionCards = document.querySelectorAll('.question-card');
+
+        function filterCards(searchQuery) {
+            const nothingFound = document.getElementById("nothing-alert");
+            let number = 0;
+
+            questionCards.forEach(function(card){
+                const questionNumber = card.querySelector("h2").textContent.toLowerCase();
+
+                if (questionNumber.includes(searchQuery.toLowerCase())) {
+                    nothingFound.style.display = "none";
+                    card.style.display = "flex";
+                    number++;
+                } else {
+                    card.style.display = "none";
+                }
+            });
+
+            if (number === 0) {
+                nothingFound.style.display = "block";
+            }
+        }
+
+        searchInput.addEventListener("input", function(){
+            const searchQuery = searchInput.value.trim();
+            filterCards(searchQuery);
+        });
+    });
+
+
+</script>
+</body>
+</html>
